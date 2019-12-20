@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,49 +21,50 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body style="background-color: lightgray">
     <div class="container">
-    <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark">
 
-        <div class="navbar-header">
-            <a class="navbar-brand logo" href="landing_page.html">Latitude</a>
-        </div>
+            <div class="navbar-header">
+                <a class="navbar-brand logo" href="landing_page.html">Latitude</a>
+            </div>
 
-        <ul class="navbar navbar-right space">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" style="color: lightgray;" data-toggle="dropdown" href="#"
-                    role="button" aria-haspopup="true" aria-expanded="false">Plots </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="temperature.html">Max Temperature</a>
-                    <a class="dropdown-item" href="humidity.html">Humidity</a>
-                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="cities_map.html">Cities Analyzed</a>
-                </div>
+            <ul class="navbar navbar-right space">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: lightgray;" data-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="true" aria-expanded="false">Plots </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="cities_map.html">Cities Analyzed</a>
+                    </div>
 
-            </li>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="comparison.html" style="color: lightgray;"> Comparison </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="data.html" style="color: lightgray;"> Data</a>
-            </li>
-        </ul>
-    </nav>
-    </div>
-
-    <div class="container">
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html" style="color: lightgray;"> Comparison </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html" style="color: lightgray;"> Data</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-12">
                 <div class="panel panel-default">
                     <div class="panel-body">
 
                         <h2>Windspeed</h2>
                         <hr>
                         <img class="image1" src="Images\Windspeed_distribution.png" alt="temperature image">
-                        <p class="p1 ext">Most of the cities across the globe have mild wind speed ranging up to 25mph. However, couple of cities in the northern hemisphere (around 60 -70 latitude) got strong winds above 40mph.</p>
+                        <p class="p1 ext">Most of the cities across the globe have mild wind speed ranging up to 25mph.
+                            However, couple of cities in the northern hemisphere (around 60 -70 latitude) got strong
+                            winds above 40mph.</p>
                         <br>
                         <img class="image1" src="Images\windspeed_cities.png" alt="temperature image">
                     </div>
@@ -75,18 +77,18 @@
                         <hr>
 
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img
-                                        class="img img-responsive" src="Images\Temp_distribution.png"
-                                        style="width:100%" alt=""></a></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img
+                            <div class="col-sm-6 col-xs-12"><a href="temperature.html"><img
+                                        class="img img-responsive" src="Images\Temp_distribution.png" style="width:100%"
+                                        alt=""></a></div>
+                            <div class="col-sm-6 col-xs-12"><a href="humidity.html"><img
                                         class="img img-responsive" src="Images\Humidity_distribution.png"
                                         style="width:100%" alt=""></a></div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img
+                            <div class="col-sm-6 col-xs-12"><a href="cloudiness.html"><img
                                         class="img img-responsive" src="Images\Cloudiness_distribution.png"
                                         style="width:100%" alt=""></a></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="windspeed.html"><img
+                            <div class="col-sm-6 col-xs-12"><a href="windspeed.html"><img
                                         class="img img-responsive" src="Images\Windspeed_distribution.png"
                                         style="width:100%" alt=""></a></div>
                         </div>
@@ -99,4 +101,5 @@
 
         </div>
 </body>
+
 </html>

@@ -2,7 +2,7 @@
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
-    font-style:bold;
+    font-style: bold;
     margin: 0px;
     border: 0px;
     padding: 5px;
@@ -13,14 +13,13 @@
     font-stretch: narrower;
 }
 
-
-
-.p1{
+.p1 {
     font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     align-content: flex-start;
     text-align: justify;
 }
+
 .image {
     /* margin-left: 10px; */
     margin-right: 10px;
@@ -31,19 +30,18 @@
     box-shadow: 10px 10px 5px grey;
     margin-bottom: 20px;
     vertical-align: 50%;
-    
 }
 
-/* .wspeed, .hum   {
-    margin-right: 5%;
+@media (max-width:768px) 
+{
+    ul 
+    {
+        width: 100%
+    }
+    ul li 
+    {
+               
+        display: flex;
+        flex-direction: column;
+    }
 }
-
-.temp,.clou {
-    margin-left: 5%;
-} */
-
-
-
-
-
-
