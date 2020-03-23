@@ -16,4 +16,4 @@ Wind Speed (mph) vs. Latitude
 
 
 
-Website [](https://sgk2004.github.io/Web-Design-Challenge/)
+[Website] (https://sgk2004.github.io/Web-Design-Challenge/)
