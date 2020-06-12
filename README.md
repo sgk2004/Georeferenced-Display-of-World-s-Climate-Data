@@ -19,6 +19,8 @@ Cloudiness (%) vs. Latitude
 
 Wind Speed (mph) vs. Latitude
 
+Analyzed climate data and created a georeferenced dashboard and deployed the website using GitHub
+
 
 ######  Website [Weather Analysis Vizualisation](https://sgk2004.github.io/Web-Design-Challenge/)
 
