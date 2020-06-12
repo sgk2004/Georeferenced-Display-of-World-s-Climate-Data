@@ -1,5 +1,7 @@
 
-Web Visualization Dashboard
+#World's Climate Data
+
+##Web Visualization Dashboard
 
 ![](images/dashboard.JPG)
 
