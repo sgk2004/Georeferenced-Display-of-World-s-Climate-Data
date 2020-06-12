@@ -1,7 +1,7 @@
 
-#World's Climate Data
+# World's Climate Data
 
-##Web Visualization Dashboard
+## Web Visualization Dashboard
 
 ![](images/dashboard.JPG)
 
